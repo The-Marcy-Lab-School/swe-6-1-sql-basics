@@ -94,9 +94,7 @@ sudo -u postgres psql books_db
 
 Use these to check your work after writing each query.
 
-<details>
-
-**<summary>1. Select all columns from all books (12 rows)</summary>**
+**<details><summary>1. Select all columns from all books (12 rows)</summary>**
 
 | book_id | title                                | author              | genre       | year | rating | available |
 | ------- | ------------------------------------ | ------------------- | ----------- | ---- | ------ | --------- |
@@ -115,9 +113,7 @@ Use these to check your work after writing each query.
 
 </details>
 
-<details>
-
-**<summary>2. Select only title and author (12 rows)</summary>**
+**<details><summary>2. Select only title and author (12 rows)</summary>**
 
 | title                                | author              |
 | ------------------------------------ | ------------------- |
@@ -136,9 +132,7 @@ Use these to check your work after writing each query.
 
 </details>
 
-<details>
-
-**<summary>3. Select title, author, and rating (12 rows)</summary>**
+**<details><summary>3. Select title, author, and rating (12 rows)</summary>**
 
 | title                                | author              | rating |
 | ------------------------------------ | ------------------- | ------ |
@@ -157,9 +151,7 @@ Use these to check your work after writing each query.
 
 </details>
 
-<details>
-
-**<summary>4. Sci-fi books (3 rows)</summary>**
+**<details><summary>4. Sci-fi books (3 rows)</summary>**
 
 | book_id | title                                | author        | genre  | year | rating | available |
 | ------- | ------------------------------------ | ------------- | ------ | ---- | ------ | --------- |
@@ -169,9 +161,7 @@ Use these to check your work after writing each query.
 
 </details>
 
-<details>
-
-**<summary>5. Books published after 2000 (7 rows)</summary>**
+**<details><summary>5. Books published after 2000 (7 rows)</summary>**
 
 | book_id | title                           | author            | genre       | year | rating | available |
 | ------- | ------------------------------- | ----------------- | ----------- | ---- | ------ | --------- |
@@ -185,9 +175,7 @@ Use these to check your work after writing each query.
 
 </details>
 
-<details>
-
-**<summary>6. Books with a rating of 9.0 or higher (10 rows)</summary>**
+**<details><summary>6. Books with a rating of 9.0 or higher (10 rows)</summary>**
 
 | book_id | title                                | author            | genre       | year | rating | available |
 | ------- | ------------------------------------ | ----------------- | ----------- | ---- | ------ | --------- |
@@ -204,9 +192,7 @@ Use these to check your work after writing each query.
 
 </details>
 
-<details>
-
-**<summary>7. Available books (8 rows)</summary>**
+**<details><summary>7. Available books (8 rows)</summary>**
 
 | book_id | title                                | author              | genre       | year | rating | available |
 | ------- | ------------------------------------ | ------------------- | ----------- | ---- | ------ | --------- |
@@ -221,9 +207,7 @@ Use these to check your work after writing each query.
 
 </details>
 
-<details>
-
-**<summary>8. Unavailable books (4 rows)</summary>**
+**<details><summary>8. Unavailable books (4 rows)</summary>**
 
 | book_id | title                 | author            | genre       | year | rating | available |
 | ------- | --------------------- | ----------------- | ----------- | ---- | ------ | --------- |
@@ -234,9 +218,7 @@ Use these to check your work after writing each query.
 
 </details>
 
-<details>
-
-**<summary>9. Books published before 1970 (3 rows)</summary>**
+**<details><summary>9. Books published before 1970 (3 rows)</summary>**
 
 | book_id | title                 | author              | genre   | year | rating | available |
 | ------- | --------------------- | ------------------- | ------- | ---- | ------ | --------- |
@@ -246,9 +228,7 @@ Use these to check your work after writing each query.
 
 </details>
 
-<details>
-
-**<summary>10. Sci-fi books with a rating above 9.4 (2 rows)</summary>**
+**<details><summary>10. Sci-fi books with a rating above 9.4 (2 rows)</summary>**
 
 | book_id | title             | author        | genre  | year | rating | available |
 | ------- | ----------------- | ------------- | ------ | ---- | ------ | --------- |
@@ -257,9 +237,7 @@ Use these to check your work after writing each query.
 
 </details>
 
-<details>
-
-**<summary>11. Fantasy or mystery books (4 rows)</summary>**
+**<details><summary>11. Fantasy or mystery books (4 rows)</summary>**
 
 | book_id | title                           | author            | genre   | year | rating | available |
 | ------- | ------------------------------- | ----------------- | ------- | ---- | ------ | --------- |
@@ -270,9 +248,7 @@ Use these to check your work after writing each query.
 
 </details>
 
-<details>
-
-**<summary>12. All books ordered by rating highest to lowest (12 rows)</summary>**
+**<details><summary>12. All books ordered by rating highest to lowest (12 rows)</summary>**
 
 Note: rows with the same rating may appear in a different order — that's okay.
 
@@ -293,9 +269,7 @@ Note: rows with the same rating may appear in a different order — that's okay.
 
 </details>
 
-<details>
-
-**<summary>13. All books ordered by year oldest to newest (12 rows)</summary>**
+**<details><summary>13. All books ordered by year oldest to newest (12 rows)</summary>**
 
 | book_id | title                                | author              | genre       | year | rating | available |
 | ------- | ------------------------------------ | ------------------- | ----------- | ---- | ------ | --------- |
@@ -314,9 +288,7 @@ Note: rows with the same rating may appear in a different order — that's okay.
 
 </details>
 
-<details>
-
-**<summary>14. Top 5 highest-rated books (5 rows)</summary>**
+**<details><summary>14. Top 5 highest-rated books (5 rows)</summary>**
 
 Note: rows with the same rating may appear in a different order — that's okay.
 
@@ -330,9 +302,7 @@ Note: rows with the same rating may appear in a different order — that's okay.
 
 </details>
 
-<details>
-
-**<summary>15. 3 most recently published books (3 rows)</summary>**
+**<details><summary>15. 3 most recently published books (3 rows)</summary>**
 
 | book_id | title             | author        | genre       | year | rating | available |
 | ------- | ----------------- | ------------- | ----------- | ---- | ------ | --------- |
@@ -342,9 +312,7 @@ Note: rows with the same rating may appear in a different order — that's okay.
 
 </details>
 
-<details>
-
-**<summary>16. Fiction books ordered by year oldest to newest (3 rows)</summary>**
+**<details><summary>16. Fiction books ordered by year oldest to newest (3 rows)</summary>**
 
 | book_id | title                 | author              | genre   | year | rating | available |
 | ------- | --------------------- | ------------------- | ------- | ---- | ------ | --------- |
@@ -354,9 +322,7 @@ Note: rows with the same rating may appear in a different order — that's okay.
 
 </details>
 
-<details>
-
-**<summary>17. Available books rated 9.0 or higher, ordered by rating (6 rows)</summary>**
+**<details><summary>17. Available books rated 9.0 or higher, ordered by rating (6 rows)</summary>**
 
 | book_id | title                                | author           | genre       | year | rating | available |
 | ------- | ------------------------------------ | ---------------- | ----------- | ---- | ------ | --------- |
@@ -369,9 +335,7 @@ Note: rows with the same rating may appear in a different order — that's okay.
 
 </details>
 
-<details>
-
-**<summary>18. Title and genre of the 3 oldest books (3 rows)</summary>**
+**<details><summary>18. Title and genre of the 3 oldest books (3 rows)</summary>**
 
 | title                 | genre   |
 | --------------------- | ------- |
@@ -381,26 +345,20 @@ Note: rows with the same rating may appear in a different order — that's okay.
 
 </details>
 
-<details>
-
-**<summary>19 and 20. After inserting a new book</summary>**
+**<details><summary>19 and 20. After inserting a new book</summary>**
 
 Your output will differ based on the book you chose. You should see 13 rows total, with your new book appearing at the end with `book_id = 13` and `available = true`.
 
 </details>
 
-<details>
-
-**<summary>21 and 22. After updating</summary>**
+**<details><summary>21 and 22. After updating</summary>**
 
 - Query 21: `UPDATE 1` — confirms one row was updated. Your inserted book should now show `available = false`.
 - Query 22: `UPDATE 1` — confirms one row was updated. Project Hail Mary should now show `rating = 9.7`.
 
 </details>
 
-<details>
-
-**<summary>23 and 24. After deleting book_id = 5</summary>**
+**<details><summary>23 and 24. After deleting book_id = 5</summary>**
 
 - Query 23: `DELETE 1` — confirms one row was deleted.
 - Query 24: You should see your inserted book in the results, but Gone Girl (`book_id = 5`) should be gone.
