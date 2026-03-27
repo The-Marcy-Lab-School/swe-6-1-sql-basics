@@ -16,7 +16,13 @@ This assignment covers **Intro to Databases** and **Intro to SQL**. You'll pract
 
 **1. Clone this repo and navigate into it.**
 
-**2. Run the seed file to create and populate `books_db`:**
+**2. Make a draft branch**
+
+```sh
+git checkout -b draft
+```
+
+**3. Run the seed file to create and populate `books_db`:**
 
 **Mac:**
 ```sh
@@ -28,7 +34,7 @@ psql -f setup.sql
 sudo -u postgres psql -f setup.sql
 ```
 
-**3. Connect to the database:**
+**4. Connect to the database:**
 
 **Mac:**
 ```sh
@@ -40,7 +46,7 @@ psql books_db
 sudo -u postgres psql books_db
 ```
 
-**4. Open `queries.sql`** and write your answer below each prompt. You can run queries in `psql` directly, or open the file in TablePlus and run queries from there.
+**5. Open `queries.sql`** and write your answer below each prompt. You can run queries in `psql` directly, or open the file in TablePlus and run queries from there.
 
 ---
 
