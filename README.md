@@ -2,7 +2,15 @@
 
 This assignment covers **Intro to Databases** and **Intro to SQL**. You'll practice reading and writing SQL queries against a pre-built `books_db` database — no JavaScript involved.
 
-> **Short Response:** Complete the written questions in the [swe-6-1-sql-basics-sr](https://github.com/The-Marcy-Lab-School/swe-6-1-sql-basics-sr) repo.
+- [Setup](#setup)
+- [Grading](#grading)
+  - [Part 1: SELECT — Basic Queries (3 pts)](#part-1-select--basic-queries-3-pts)
+  - [Part 2: WHERE — Filtering Data (8 pts)](#part-2-where--filtering-data-8-pts)
+  - [Part 3: ORDER BY and LIMIT — Sorting and Slicing (7 pts)](#part-3-order-by-and-limit--sorting-and-slicing-7-pts)
+  - [Part 4: INSERT — Creating Data (2 pts)](#part-4-insert--creating-data-2-pts)
+  - [Part 5: UPDATE — Modifying Data (2 pts)](#part-5-update--modifying-data-2-pts)
+  - [Part 6: DELETE — Removing Data (2 pts)](#part-6-delete--removing-data-2-pts)
+- [Expected Output](#expected-output)
 
 ## Setup
 
@@ -55,7 +63,7 @@ sudo -u postgres psql books_db
 - [ ] 10. Select all `'sci-fi'` books with a rating above `9.4` (AND)
 - [ ] 11. Select all books in the `'fantasy'` or `'mystery'` genre (OR)
 
-### Part 3: ORDER BY & LIMIT — Sorting and Slicing (7 pts)
+### Part 3: ORDER BY and LIMIT — Sorting and Slicing (7 pts)
 
 - [ ] 12. Select all books, ordered by `rating` highest to lowest
 - [ ] 13. Select all books, ordered by `year` oldest to newest
