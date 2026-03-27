@@ -37,19 +37,19 @@
 -- 6. Select all books with a rating of 9.0 or higher.
 
 
--- 7. Select all books that are currently available (available = TRUE).
+-- 7. Select all books that are currently available.
 
 
--- 8. Select all books that are currently checked out (available = FALSE).
+-- 8. Select all books that are currently unavailable.
 
 
 -- 9. Select all books published before 1970.
 
 
--- 10. Select all 'sci-fi' books with a rating above 9.4. (Use AND)
+-- 10. Select all 'sci-fi' books with a rating above 9.4.
 
 
--- 11. Select all books in the 'fantasy' or 'mystery' genre. (Use OR)
+-- 11. Select all books in the 'fantasy' or 'mystery' genre.
 
 
 -- ============================================================
@@ -94,7 +94,7 @@
 -- Part 5: UPDATE — Modifying Data
 -- ============================================================
 
--- 21. Mark the book you inserted in #19 as unavailable (available = FALSE).
+-- 21. Mark the book you inserted in #19 as unavailable.
 --     Use its book_id to target it specifically.
 
 
